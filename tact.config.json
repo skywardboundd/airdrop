@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/tact-lang/tact/main/src/config/configSchema.json",
+  "projects": [
+    {
+      "name": "Airdrop",
+      "path": "contracts/airdrop.generated.tact",
+      "output": "build/Airdrop",
+      "options": {
+        "debug": false,
+        "external": false
+      },
+      "mode": "full"
+    }
+  ]
+}
